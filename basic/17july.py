@@ -54,4 +54,39 @@ input  a= 10
 input  b= 20
 output  :1020 
 """
+# operator : 
 
+"""
+1. airthematic op : + - * / // % 
+2. relational op : == != > < >= <=
+3. logic op : and or 
+4. assignment op : = += -= *= /= //= %=
+5. membership op : in not in
+"""
+
+"""print(9/2)
+print(9//2)  # floor div it give  only int value 
+print(9 % 2)  # % modulas operator  give  remainder
+print(20 % 90)  # always remeber  if  you modulas small number  to big number  then your answer will always small number.
+
+a=9
+b=90
+# print(a==b)
+# print(a!=b)
+print(a>b and a!=b)
+print(a>b or a!=b)
+
+# a=a+b  a=a-b ==>a-=b  a=a*b ==>a*=b  a=a/b ==>a/=b 
+a+=b
+print(a)
+
+l1=[1,2,3,4,5]
+print(2 not in l1)
+print(5 in l1)
+"""
+
+# task :2 
+"""
+ask user to enter the  2 number and print sum,sub,mul,div,mod. in divison your answer will be  int value.
+
+"""
