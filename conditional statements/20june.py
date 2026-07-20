@@ -133,4 +133,26 @@ isosceles    : two side  are equal
 scalene      : no side  are equal
 """
 
+"""
+task :1 
+
+ask user to enter the cost price and selling  price and print  profit  or  loss . 
+profit  = selling  price - cost  price
+loss  = cost  price - selling  price
+
+task :2 ask user to enter the salary  and calculate the  gross salary. 
+
+salary          HRA%      DA% 
+<10000            20      10 
+<20000            25      15
+above 20000       30      20 
+
+hint  : gross salary  = salary + HRA +DA 
+        HRA  = salary * HRA   like  : if user enter the  salary 10000 then  HRA is  : 
+            10000 * 20 /100 = 2000
+        DA  = salary * DA   like  : if user enter the  salary 10000 then  DA is  : 
+            10000 * 10/100 = 1000
+        gross salary  = salary + HRA + DA =10000 + 2000 +1000 = 13000
+
+"""
 
