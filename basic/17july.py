@@ -41,12 +41,12 @@ print("a+b =",a+b)
 
 # user input string  : 
 
-"""a=str(input("enter the name : "))
+a=str(input("enter the name : "))
 b=input("enter the sur-name : ")
 
 print(a,end=" ")
 print(b)  # gaurav sharma
-"""
+
 
 # task  :1 ask user to enter the  2 number  and  concate  them . 
 """
