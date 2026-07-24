@@ -75,4 +75,36 @@ output  : 500 rs 1 note
 
 """
 
-  
+# solution 3 :
+
+"""for i in range(1,21) :
+    if i % 3 == 0 and i % 5 == 0 :
+        print(i,"fizzbuzz")
+    elif i % 3 == 0 :
+        print(i,"fizz")
+    elif i % 5 == 0 :
+        print(i,"buzz")
+"""
+# solution 4 :
+"""amount =int(input("enter amount : "))  # 750 
+
+note500 =0 
+note100 =0
+note50  =0
+
+if amount >=500 :  # 750 >=500 
+    note500 = amount // 500   # note500  = 750 // 500 =1 
+    amount -= note500 * 500   # amount =amount -note500 *500  = 250 
+    
+if amount >=100 :  # 250 >= 100 
+    note100 = amount // 100   # note100 = 250 //100 = 2 
+    amount -= note100 * 100   # amount  =250-200 =50  
+
+if amount >=50 :  # 50 >=50 
+    note50 = amount // 50  
+    amount -= note50 * 50
+    
+print("500 notes : ",note500)
+print("100 notes : ",note100)
+print("50 notes : ",note50)
+"""
