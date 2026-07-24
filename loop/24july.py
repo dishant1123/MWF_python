@@ -46,3 +46,24 @@ output  : sum of  n natural number is  : 15
           factorial of  n natural number is  : 120
 
 """
+# prime number  : 1 ,number itself 
+"""
+2 factors  : 
+
+4 factors  : 1,2,4  ===> not  prime 
+19 factors : 1, 19  ===>  prime 
+7 factors  : 1,7 ===> prime  
+"""
+
+n=int(input("enter the number : "))  # 5 
+count =0 
+
+for i in range(1,n+1) :  # 5,6 
+    if n % i ==0 :   # 5 % 5  == 0 
+        count +=1    # 2  
+        
+if count ==2 :  #  2==2
+    print(n,"is prime number")
+else :
+    print(n,"is not prime number")
+
