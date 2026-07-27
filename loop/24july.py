@@ -55,7 +55,7 @@ output  : sum of  n natural number is  : 15
 7 factors  : 1,7 ===> prime  
 """
 
-n=int(input("enter the number : "))  # 5 
+"""n=int(input("enter the number : "))  # 5 
 count =0 
 
 for i in range(1,n+1) :  # 5,6 
@@ -66,4 +66,4 @@ if count ==2 :  #  2==2
     print(n,"is prime number")
 else :
     print(n,"is not prime number")
-
+"""
