@@ -45,5 +45,7 @@ print("shah")
 
 # print("ram\b\bshah")
 
-print("dishant",end="\b\b")
+"""print("dishant",end="\b\b")
 print("shah")
+"""
+

@@ -105,7 +105,7 @@ sum =0
 3. num = num //10  num = 1 //10  =0 
 """
 
-n=int(input("enter the number : "))  # 1634
+"""n=int(input("enter the number : "))  # 1634
 sum =0 
 digits = len(str(n)) 
 temp =n   # 1634
@@ -118,3 +118,20 @@ if temp ==sum :
     print("armstrong number")
 else :
     print("not armstrong number")
+"""
+# twin number  : 
+
+n=int(input("enter the number : "))  # 123    ===> sum = 3 mul = 3 
+sum =0 
+mul=1 
+digits =len(str(n))  # 3 
+
+for i in range(digits):  # digits =2 ,3 
+    r = n %10    # r = 1 % 10 =1  
+    sum =sum +r   # sum = 6
+    mul = mul *r  # mul = 6 
+    n = n //10    # n = 1 //10 =0  
+if sum ==mul :
+    print("twin number")
+else :
+    print("not twin number")
