@@ -137,3 +137,111 @@ input a =10
 input b =20
 output 1020
 """
+
+# operator  : 
+"""
+1. airthmetic operator : + - * / % //
+2. relational operator : == != > < >= <=
+3. logical operator : and  not
+4. assignment operator : = += -= *= /= //= %=
+5. membership operator : not in ,in
+"""
+
+# print(20 % 10)   # remainder  
+# print(10/3)
+# print(10//3)
+
+# a=1 
+# b=10
+# print(a!=b)
+# print(a>b and a!=b)
+# print(a>b or a!=b)
+# a =a +b    # a+=b 
+# a+=b
+# print(a)
+
+# l1 =[1,2,3,4,5]
+# print(2 in l1)
+# print(2 not in l1)
+
+# conditional statement :
+
+"""
+if con : 
+    print()
+else :
+    print()
+"""
+
+# ex :1 
+"""age =int(input("enter the  age :"))
+
+if age >18 :
+    print("eligible  for vote")
+else :
+    print("not eligible  for vote")
+"""
+
+# ex :2 odd or even 
+
+"""num =int(input("enter the  number :"))
+
+if num % 2 ==0:
+    print("even")
+else :
+    print("odd")
+""" 
+
+# ex :3  nested if : 
+"""
+a=int(input("enter the  a  number :"))
+b=int(input("enter the  b  number :"))
+
+if a>b :
+    print("a is big")
+elif b>a :
+    print("b is big")
+else :
+    print("same")
+    
+"""
+# ex :4 
+"""a=int(input("enter the  a  number :"))
+b=int(input("enter the  b  number :"))
+c=int(input("enter the  c  number :"))
+
+if a>b and a>c :
+    print("a is big")
+
+elif b>a and b>c :
+    print("b is big")
+    
+elif c>a and c>b :
+    print("c is big")
+
+else :
+    print("same")
+"""
+
+# ex :5 
+
+phy=int(input("enter the  phy  marks :"))
+che=int(input("enter the  che  marks :"))
+maths=int(input("enter the  maths  marks :"))
+
+total = phy + che + maths
+print("total marks :",total)
+percent = (total)/3
+print("percent :",percent)
+
+"""
+percent     Grade 
+above 90    A+ 
+80-90       A
+70-80       B+
+60-70       B
+50-60       C+
+40-50       C
+below 40    Fail 
+"""
+
