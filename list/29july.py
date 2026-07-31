@@ -98,7 +98,7 @@ output  : odd =[1,3,5,7,9]
           even =[2,4,6,8]
 
 """
-l1= [1,2,3,49,5,6,7,8,97]
+"""l1= [1,2,3,49,5,6,7,8,97]
 odd=[]
 even=[]
 for i in l1:
@@ -108,3 +108,4 @@ for i in l1:
         odd.append(i)
 print("odd elements :",odd)
 print("even elements :",even)
+"""
