@@ -100,3 +100,17 @@ d1={
 }
 print(d1)
 print(d1['phy'][0])
+
+
+# d1={("hetvi",90),("ved",89),("mital",88)}
+
+"""d2 =(("hetvi",90),("ved",89),("mital",88))
+print(dict(d2))
+"""
+
+# pop , remove  : 
+
+"""l1 =[12,34,56,3,56]
+print(l1.pop(3))
+"""
+
