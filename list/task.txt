@@ -41,3 +41,6 @@ LIST - INTERVIEW QUESTIONS
 8. Write a program to find duplicate values in a list.
 9. Find the second largest number in a list.
 10. Write a program to rotate a list by one position.
+
+
+
