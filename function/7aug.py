@@ -125,7 +125,7 @@ pelidrome(['1221',"aba",'mom','bhai','ben'])
 
 # reverse list : l1 =[121,123,456,89] using function  
 
-l1 =[121,123,456,89] 
+"""l1 =[121,123,456,89] 
 l2=[]
 
 for i in l1 :   # 123
@@ -133,3 +133,4 @@ for i in l1 :   # 123
     l2.append(int(result))   # l2.append(121)
 print(l2)
 
+"""
