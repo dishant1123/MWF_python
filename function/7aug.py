@@ -111,7 +111,8 @@ pelidrome()
 
 # ex :4 with arg  no return 
 
-"""def pelidrome(l1) :
+"""
+def pelidrome(l1) :
     l2=[]
 
     for i in l1 :   # hetvi
@@ -121,4 +122,14 @@ pelidrome()
 pelidrome(['hetvi','ved','mital','sumit','maam','php'])
 pelidrome(['1221',"aba",'mom','bhai','ben'])
 """
+
+# reverse list : l1 =[121,123,456,89] using function  
+
+l1 =[121,123,456,89] 
+l2=[]
+
+for i in l1 :   # 123
+    result =str(i)[ : : -1]  # result = "321" 
+    l2.append(int(result))   # l2.append(121)
+print(l2)
 
