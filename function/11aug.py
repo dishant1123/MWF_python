@@ -52,14 +52,23 @@ def create():
     print("create success")
     
 def login():
-    user =input("enter the  username : ")
-    passw=input("enter  the  passowrd :")
+    attempt = 3 
+    while attempt > 0 :
+        user =input("enter the  username : ")
+        passw=input("enter  the  passowrd :")
     
-    if user==username and passw==password:
-        print("login success")
-    else :
-        print("login fail")
-        
+        if user==username and passw==password:
+            print("login success")
+            return True
+        else :
+            attempt -= 1
+            print("try again")
+    
+    password = ""
+    username = ""
+    return False
+
+
 while True:
     print("1.create")
     print("2.login")
