@@ -42,6 +42,38 @@ username =""
 password =""
 
 def create():
+    
+    global username,password
     username = input("enter the  username : ")
     password = input("enter  the  passowrd :")
+    
+    print("username : ",username)
+    print("password : ",password)
+    print("create success")
+    
+def login():
+    user =input("enter the  username : ")
+    passw=input("enter  the  passowrd :")
+    
+    if user==username and passw==password:
+        print("login success")
+    else :
+        print("login fail")
+        
+while True:
+    print("1.create")
+    print("2.login")
+    print("3.exit")
+    choice = int(input("enter your choice : "))
+    
+    if choice==1:
+        create()
+    
+    elif choice==2:
+        if username=="" or password=="":
+            print("please create first")
+        else :
+            login()
+    elif choice==3:
+        break
     
