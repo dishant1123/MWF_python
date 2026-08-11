@@ -144,4 +144,5 @@ while True :
 area of circle : 2 *3.14 *r 
 area of square : 4*slides
 area of triangle : 2*(base*height)/2
+
 """
