@@ -110,7 +110,7 @@ print(result)
          input : [121 , 131 , 123 ,145 , 789 ]
          output :  [121,131,321,541,987]
 """
-l1=[121 , 131 , 123 ,145 , 789 ]
+"""l1=[121 , 131 , 123 ,145 , 789 ]
 l2=[] 
 for i in l1: 
     result = str(i) [ : :-1]
@@ -120,5 +120,9 @@ print(l2)
 
 result =tuple(map(lambda x : int(str(x)[ : : -1]) ,l1))
 print(result)
+"""
+# next recusion: 
+s1 ="              mital                "
+print(s1)
+print(s1.strip())
 
-# next recusion 
