@@ -1,0 +1,32 @@
+[
+    {
+        "id":101,
+        "name":"mital",
+        "age":20,
+        "salary":29000
+    },
+    {
+        "id":102,
+        "name":"hetvi",
+        "age":21,
+        "salary":30000
+    },
+    {
+        "id":103,
+        "name":"vraj",
+        "age":20,
+        "salary":40000
+    },
+    {
+        "id":104,
+        "name":"narendra",
+        "age":22,
+        "salary":50000
+    },
+    {
+        "id":105,
+        "name":"rahul gandi",
+        "age":22,
+        "salary":5000
+    }
+]
