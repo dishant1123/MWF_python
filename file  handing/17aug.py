@@ -141,4 +141,19 @@ input  : my name is  mital patil.
 vowel.txt :aeiiaai
 consonant.txt :my nm s  mtl ptl.
 """
+n=input("enter the  string  :")
+vowel ="aeiou"
+
+for i in n :  # my name is  mital patil.
+    if i in vowel :
+        with open ("vowel.txt","a") as f :  
+            f.write(i)  # ae
+    else :
+        with open ("consonant.txt","a") as f :
+            f.write(i)  #my nm
+
+            
+            
+
+    
 
