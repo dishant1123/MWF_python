@@ -29,7 +29,7 @@ print(m.gcd(4,6))  # greatest common divisor
 
 import datetime as dt
 
-today = dt.datetime.now()
+"""today = dt.datetime.now()
 print(today)
 
 format_date = dt.datetime.now().strftime("%d-%m-%Y %H:%M:%S")
@@ -43,4 +43,31 @@ print(custom_date.year)
 print(custom_date.hour)
 print(custom_date.minute)
 print(custom_date.second)
+"""
+# game : 
+"""
+rock paper scissor
+
+1. user  ====> 3 
+2. computer ====> 3   -----> choice 
+
+userscore =0 
+computerscore =0
+for i in range(5) :
+
+case : user win  -----> 
+    if user == rock and computer == rock  or
+        user == scissor and computer == scissor  or
+        user == paper  and computer == paper :
+            print("tie")
+    elif user == rock and computer == scissor  or 
+       user == scissor and computer == paper  or
+       user == paper  and computer == rock :
+            print("user win")
+            userscore +=1
+    else :
+        print("computer win")
+        computerscore +=1
+    
+"""
 
