@@ -71,3 +71,13 @@ case : user win  ----->
     
 """
 
+# guessing  game  : 
+"""
+computer  ------> range(1,20)  -----> choose 
+
+attempt : 5 
+
+"""
+
+ 
+
